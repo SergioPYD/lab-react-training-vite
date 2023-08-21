@@ -1,6 +1,13 @@
 .App {
   text-align: center;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +42,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card{
+text-align: left;
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 10px;
+  width: 1000px;
+  border:solid black;
+}
+
+.credit-card{
+  text-align: left;
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+   
+   padding: 20px;
+    border:solid black;
+    border-radius: 10px;
+  }
+
+.imgCard{
+  text-align: right;
+}
+
+.number {
+  text-align: center;
+  font-size: 30px;
+}
+
+.datos{
+  position: relative;
+  bottom: 27px;
 }
