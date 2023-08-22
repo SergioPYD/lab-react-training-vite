@@ -3,7 +3,7 @@ import "../App.css";
 
 function Random (props){
 const {max , min} = props
-const randomNumber = Math.floor(Math.random() *(max - min +1 )+min)
+const randomNumber = Math.floor(Math.random() *(max - min + 1 )+min)
     return (
 
         <div className="card"> 
